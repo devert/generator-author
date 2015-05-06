@@ -1,5 +1,5 @@
 {
-  "name": "generator-generator",
+  "name": "generator-author",
   "version": "0.1.0",
   "description": "Generate a Yeoman generator with different defaults that the existing generator-generator.",
   "keywords": [
@@ -7,7 +7,8 @@
     "generator",
     "init",
     "create",
-    "boilerplate"
+    "boilerplate",
+    "yeoman"
   ],
   "author": {
     "name": "Dennis Evert",

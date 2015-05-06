@@ -23,7 +23,10 @@
     "yeoman-generator": "^0.19.2",
     "yosay": "^1.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "coveralls": "^2.11.2"
+  },
   "license": "MIT",
   "files": [
     "app",

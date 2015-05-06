@@ -1,6 +1,6 @@
 {
   "name": "generator-author",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a Yeoman generator with different defaults that the existing generator-generator.",
   "keywords": [
     "yeoman-generator",
@@ -17,12 +17,13 @@
   },
   "main": "app/index.js",
   "repository": "devert/generator-author",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.19.2",
+    "yosay": "^1.0.3"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "license": "MIT",
   "files": [
     "app",

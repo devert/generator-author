@@ -1,0 +1,30 @@
+{
+  "name": "generator-generator",
+  "version": "0.1.0",
+  "description": "Generate a Yeoman generator with different defaults that the existing generator-generator.",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "init",
+    "create",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Dennis Evert",
+    "email": "dennisevert@gmail.com",
+    "url": "http://dennisevert.com"
+  },
+  "main": "app/index.js",
+  "repository": "devert/generator-author",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "license": "MIT",
+  "files": [
+    "app",
+    "subgenerator"
+  ]
+}

@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/devert/generator-author.svg?branch=master)](https://travis-ci.org/devert/generator-author)
+[![Build Status](https://secure.travis-ci.org/devert/generator-author.svg)](https://travis-ci.org/devert/generator-author)
 [![Coverage Status](https://coveralls.io/repos/devert/generator-author/badge.svg)](https://coveralls.io/r/devert/generator-author)
 
 # generator-author 

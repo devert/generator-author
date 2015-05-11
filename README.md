@@ -4,3 +4,5 @@
 # generator-author 
 
 > Generate a Yeoman generator with different defaults than the existing [generator-generator](https://github.com/yeoman/generator-generator).
+
+## WORK IN PROGRESS

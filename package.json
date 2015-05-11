@@ -22,6 +22,11 @@
   },
   "dependencies": {
     "chalk": "^1.0.0",
+    "github": "^0.2.4",
+    "lodash": "^3.8.0",
+    "npm-name": "^1.0.4",
+    "superb": "^1.1.4",
+    "underscore.string": "^3.0.3",
     "yeoman-generator": "^0.19.2",
     "yosay": "^1.0.3"
   },

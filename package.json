@@ -1,6 +1,6 @@
 {
   "name": "generator-author",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Generate a Yeoman generator with different defaults that the existing generator-generator.",
   "keywords": [
     "yeoman-generator",

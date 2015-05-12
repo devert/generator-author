@@ -1,8 +1,10 @@
 'use strict';
 
+var path = require('path');
 var gulp = require('gulp');
 var mocha = require('gulp-mocha');
 var istanbul = require('gulp-istanbul');
+var coveralls = require('gulp-coveralls');
 var plumber = require('gulp-plumber');
 
 gulp.task('test', function (cb) {
@@ -34,4 +36,13 @@ gulp.task('test', function (cb) {
   });
 });
 
-gulp.task('default', ['test']);
+gulp.task('coveralls', ['test'], function () {
+  if (!process.env.CI) {
+    return false;
+  }
+
+  return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
+      .pipe(coveralls());
+});
+
+gulp.task('default', ['test', 'coveralls']);

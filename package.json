@@ -18,7 +18,7 @@
   "main": "app/index.js",
   "repository": "devert/generator-author",
   "scripts": {
-    "test": "make test-coveralls"
+    "test": "gulp"
   },
   "dependencies": {
     "chalk": "^1.0.0",
@@ -31,9 +31,11 @@
     "yosay": "^1.0.3"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.13",
-    "mocha": "^2.2.4"
+    "gulp": "^3.8.11",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-plumber": "^1.0.0",
+    "mockery": "^1.4.0"
   },
   "license": "MIT",
   "files": [

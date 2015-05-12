@@ -54,13 +54,8 @@ describe('generator:app', function () {
         '.eslintrc',
         'generators/app/index.js',
         'generators/app/templates/_package.json',
-        'generators/app/templates/_travis.json',
-        'generators/app/templates/editorconfig',
-        'generators/app/templates/eslintrc',
-        'generators/app/templates/gitattributes',
-        'generators/app/templates/gitignore',
-        'generators/app/templates/README.md',
-        'generators/app/templates/test-app.js'
+        'generators/app/templates/_bower.json',
+        'generators/app/templates/editorconfig'
       ];
 
       assert.file(expected);
